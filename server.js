@@ -35,7 +35,7 @@ app.post('/addCart',async (req,res)=>
     return res.redirect('/login')
     
   }
-  
+  console.log("hiii")
   let item = await CartItems.create(
     {
          user_id:req.user.id,
