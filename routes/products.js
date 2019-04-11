@@ -68,7 +68,7 @@ route.post('/New', async (req,res)=>
 		price:req.body.price,
 		quantity:req.body.Quantity
 })
-res.redirect('/addproduct')
+res.redirect('/')
 })
 route.post('/', async (req, res) => {
 
