@@ -28,7 +28,7 @@ app.use('/login', (require('./routes/login').route))
 app.use('/signup', (require('./routes/signup').route))
 app.use('/profile', (require('./routes/profile').route))
 app.use('/cart', (require('./routes/cart').route))
-const PORT= process.env.PORT || 9999
+const port=process.env.PORT || 3000
 app.post('/addCart',async (req,res)=>
 {
   if (!req.user) {
@@ -62,7 +62,7 @@ app.get('/giveCart',async (req,res)=>
 })
 db.sync()
   .then(() => {
-    app.listen(PORT, () => {
+    app.listen(port, () => {
       console.log('Server started on http://localhost:9876')
     })
   })
