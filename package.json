@@ -1,7 +1,6 @@
 {
   "name": "shoppingapp",
   "version": "1.0.0",
-  "description": "",
   "main": "db.js",
   "dependencies": {
     "express": "^4.16.4",
@@ -18,5 +17,17 @@
     "start": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwaishkhan55/shopCart1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uwaishkhan55/shopCart1/issues"
+  },
+  "homepage": "https://github.com/uwaishkhan55/shopCart1#readme",
+  "description": ""
 }
