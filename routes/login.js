@@ -61,7 +61,7 @@ route.get('/', (req, res) => {
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                         <p>Don't have account</p>
-                   <a href="http://localhost:9999/signup" class="btn btn-primary">Register Now</a>
+                   <a href="/signup" class="btn btn-primary">Register Now</a>
                       </form>
     
         </div>
