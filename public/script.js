@@ -9,7 +9,7 @@ function createProduct(product)
       <h5 class="card-title">$${product.price}</h5>
       <p class="card-text mine">${product.name}</p>
       <form method="GET" action="/cart">
-      <a href="http://localhost:9999/cart" <button onClick="addCart()" id="${product.id}" class="btn btn-primary">Buy Now</button></a></form>
+      <a href="/cart" <button onClick="addCart()" id="${product.id}" class="btn btn-primary">Buy Now</button></a></form>
    
      
     </div>
